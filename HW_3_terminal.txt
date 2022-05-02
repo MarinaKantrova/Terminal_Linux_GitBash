@@ -1,0 +1,190 @@
+GIT Homework 3
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.                                                                  === new repository JSON                                                      
+ 5. Клонировать репозиторий JSON на локальный компьютер.                                                           === git clone https://github.com/MarinaKantrova/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”.                                                                === touch new.json
+ 7. Добавить файл под гит.                                                                                         === git add .
+ 8. Закоммитить файл.                                                                                              === git commit -m "add file"
+ 9. Отправить файл на внешний GitHub репозиторий.                                                                  === git push           
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе 
+(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.              === vim new.json
+															{
+     															   "name":"Svetlana",
+      															   "age":55,
+       															   "pet":1,
+      															   "salary":1000
+
+															}
+
+ 11. Отправить изменения на внешний репозиторий.                                                                   === git add .
+														       git commit - m "modified"
+														       git push
+
+
+ 12. Создать файл preferences.json                                                                                 === toush preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях                                                  
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить)               === vim preferences.json
+в формате JSON.
+														       {       
+															"favorite movie": "Girls",
+															"favorite TV series": "Ancient",
+															"favorite food": "pizza",
+															"favorite season": "Spring",
+															"the country I want to visit": "Italy"
+
+															}
+
+
+
+
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON           === touch skills.json
+														       vim skills.json
+														       {
+   															"one":"Git",
+       														        "two":"Postman",
+      														        "three":"Jmeter"
+
+
+															}
+
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.                                                               === git add .
+														       git commit -m "add two files"
+														       git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.                                                               === Create new files bug_report.json
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.                                               ===
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.                    === 
+														       {
+ 															 "ID":"BR-01",
+  															 "Descriptionn":"Отображение неправильного названия формы регистрации",
+  															 "Pre-condition":"Открыть форму регистрации",
+ 															 "Step":"Открыть форму регистрации",
+ 															 "Actual Result":"Название формы регистрации ITCareerToday web form",
+      															 "Expected Result":"Название формы регистрации Registration form",
+														         "Environment":"win 10 Pro 21H2 x64,   Google Chrome ВерсияВерсия 100.0.4896.127 (Официальная сборка), (64 бит)",
+ 															 "Commit":"Test 1"
+															}
+
+
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.                                               ===
+ 20. Синхронизировать внешний и локальный репозиторий JSON                                                         === git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.   
+ 22. Клонировать репозиторий XML на локальный компьютер.                                                          === git clone https://github.com/MarinaKantrova/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.                                                                === touch new.xml
+ 24. Добавить файл под гит.											  === git add .
+ 25. Закоммитить файл.												  === git commit -m "new files"
+ 26. Отправить файл на внешний GitHub репозиторий. 								  === git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе 					  === vim new.xml
+(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.                  
+														      <info>
+      															  <name>Svetlana</name>
+   														          <age>55</age>
+ 													                  <pet>1</pet>
+   														          <salary>1000</salary>
+														      </info>
+
+
+ 28. Отправить изменения на внешний репозиторий.								  === git add .
+														      git commit -m "modified"
+														      git push
+ 29. Создать файл preferences.xml										  === touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал,             === vim preferences.xml
+любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+															<like>
+        															<movie>Girls</movie>
+     															        <series>Ancient</series>
+       															        <food>pizza</food>
+     															        <season>Spring</season>
+     															        <country>Italy</country>
+															</like>
+
+
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML            === touch skills.xml
+														      vim skills.xml
+															
+															<skills>
+       																 <one>Git</one>
+     															         <two>Postman</two>
+      															         <three>Jmeter</three>
+															</skills>
+
+
+
+ 32. Сделать коммит в одну строку.                                                                                === git add . | git commit -m "two files"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.                                                              === git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.                     === <bug> 
+  															<ID>BR-01</ID>
+  															<Description>Отображение неправильного названия формы регистрации</Description>
+ 														        <Pre-condition>Открыть форму регистрации</Pre-condition>
+  															<Step>Открыть форму регистрации</Step>
+  															<Actual>Название формы регистрации ITCareerToday web form</Actual>
+ 														        <Expected>Название формы регистрации Registration form</Expected>
+  															<Environment>win 10 Pro 21H2 x64,Google Chrome ВерсияВерсия 100.0.4896.127 (Официальная сборка), (64 бит)</Environment>
+  															<Commit>Test 1</Commit>
+														      </bug>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML                                                          === git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.                                                                   === new repository TXT
+ 2. Клонировать репозиторий TXT на локальный компьютер.                                                            === git clone https://github.com/MarinaKantrova/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”.                                                                  === touch new.txt
+ 4. Добавить файл под гит.											   === git add .
+ 5. Закоммитить файл.												   === git commit -m "new file"
+ 6. Отправить файл на внешний GitHub репозиторий.								   === git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст,                        
+количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.                              === 1) Светлана
+														       2) 55
+														       3) 1 животное
+ 														       4) 1000
+
+ 8. Отправить изменения на внешний репозиторий.                                                                    === git add .
+														       git commit -m "modified"
+														       git push
+
+ 9. Создать файл preferences.txt                                                                                   === touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, 				   === 1) Любимый фильм: "Девчата"
+любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.	               2) Любимый сериал: "Древние"
+														       3) Любимая еда: Роллы
+														       4) Любимое время года: Весна
+														       5) Желаемая зарплата: 1000
+
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT             === touch skills.txt
+														       vim skill.txt
+														        1) Git
+															2) Postman
+															3) SQL
+															4) Jmeter
+															5) Jira
+															6) Android Studio
+															7) Charles
+															8) Fiddler
+
+ 12. Сделать коммит в одну строку.                                                                                 === git add . | git commit -m "add two files"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.                                                               === git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.                      === ID: BR-01
+														       Descriptionn: Отображение неправильного названия формы регистрации
+														       Pre-condition: Открыть форму регистрации
+														       Step: Открыть форму регистрации
+														       Actual Result: Название формы регистрации ITCareerToday web form
+														       Expected Result: Название формы регистрации Registration form
+														       Environment: win 10 Pro 21H2 x64, Google Chrome ВерсияВерсия 100.0.4896.127 (Официальная сборка), (64 бит)
+														       Commit: Test 1
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT                                                          === git pull
