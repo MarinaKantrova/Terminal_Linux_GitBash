@@ -1,0 +1,37 @@
+GitHub. HW_4
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing                                                             === git clone https://github.com/MarinaKantrova/Terminal_Linux_GitBash_branch.git
+										 cd .. Terminal_Linux_GitBash_branch
+										 git branch Postman
+										 git branch Jmeter
+										 git branch Checklist
+										 git branch Bag_Reports
+										 git branch SQL
+										 git branch Charles
+										 git branch Mobile_testing
+
+2. Запушить все ветки на внешний репозиторий                                 === git push origin --all
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  === git checkout Bag_Reports
+										 touch bag_report.json
+4. Запушить структуру багрепорта на внешний репозиторий                      === git add .
+										 git commit -m "add new file"
+										 git push -u origin Bag_Reports
+5. Вмержить ветку Bag Reports в Main                                         === git checkout main
+										 git merge Bag_Reports
+
+6. Запушить main на внешний репозиторий.                                     === git push
+7. В ветке CheckLists набросать структуру чек листа.                         === git checkout CheckLists
+										 touch checklist.json
+8. Запушить структуру на внешний репозиторий                                 === git add .
+										 git commit -m "add new file"
+										 git push -u origin Checklists
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main                          === git checkout main
+										 git pull
